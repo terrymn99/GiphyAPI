@@ -1,0 +1,22 @@
+.container {
+    width: 1600px;
+    height: 1000px;
+    background-color: rgb(85, 119, 170);
+}
+
+.input-form {
+    margin-left: 1000px;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+#submitButton  {
+    color: black;
+    background-color: gray;
+    padding: 5px;
+    font-weight: bold; 
+}
