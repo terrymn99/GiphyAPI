@@ -1,3 +1,7 @@
+//Need to fix images loading incorrectly
+//Need to fix buttons not adding images 
+//Need to add animate
+
 $(document).ready(function () {
     $(function () {
         loadButtons("arrayItems", "searchArea", ".buttonGroup");
@@ -46,8 +50,8 @@ $(document).ready(function () {
     }
 })
 })
-$("addSearch").on("click", function () { 
-    var newItem = $("input").eq(0).val; //Assigns input text to newItem variable
+$("#submitButton").on("click", function () { 
+    var newItem = $("#inputDogBreed").eq(0).val(); //Assigns input text to newItem variable
     arrayItems.push (newItem); //Adds input value to items array
     loadButtons (loadButtons, "searchButton,", "#buttonGroup"); //Execute loadButtons function
     return false; //Prevents page from reloading
