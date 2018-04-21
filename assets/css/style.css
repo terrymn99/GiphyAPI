@@ -20,3 +20,9 @@ h1 {
     padding: 5px;
     font-weight: bold; 
 }
+
+.searchArea  {
+    background-color: blue;
+    color: white;
+}
+
